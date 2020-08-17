@@ -1,5 +1,4 @@
 syntax
 nodejs
-lib
 data
 mysql.js
