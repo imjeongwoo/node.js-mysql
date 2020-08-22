@@ -38,7 +38,7 @@ mysql> SELECT * FROM topic LEFT JOIN author ON topic.author_id=author.id;
 5 rows in set (0.00 sec)
 ```
 
-` db.query(`SELECT * FROM topic LEFT JOIN author ON topic.author_id=author.id WHERE topic.id=?`,[queryData.id]`
+` db.query('SELECT * FROM topic LEFT JOIN author ON topic.author_id=author.id WHERE topic.id=?',[queryData.id] `
 ```
 0|main   | [
 0|main   |   RowDataPacket {
